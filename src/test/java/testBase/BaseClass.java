@@ -28,7 +28,8 @@ import org.testng.annotations.Parameters;
 
 public class BaseClass {
 
-	public WebDriver driver;
+	public static WebDriver driver; 
+	//public WebDriver driver; // Make it enabled if you want to execute the project PARALLELY in LOCAL/REMOTE environment
 	public Logger logger;
 	public Properties p;
 	

@@ -40,3 +40,411 @@
 2024-05-09 19:03:26 INFO  TC002_LoginTest:34 - Enter valid password....
 2024-05-09 19:03:26 INFO  TC002_LoginTest:37 - Clicked on Login button....
 2024-05-09 19:03:26 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:15:47 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\master.xml
+
+2024-05-09 22:15:52 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:15:53 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:15:53 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:15:53 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:15:56 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:15:56 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:15:56 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:16:00 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:16:00 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:16:01 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:16:01 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:16:01 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:16:02 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:16:02 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:16:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\parallel.xml
+
+2024-05-09 22:16:34 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:16:34 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:16:34 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:16:35 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:16:35 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:16:35 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:16:36 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:16:36 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:16:36 ERROR TC001_AccountRegistrationTest:72 - Test failed: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=124.0.2478.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0f1ace0dd6a8957b9b1d1a003456bb95, sendKeysToElement {value=[Ljava.lang.CharSequence;@6e289cce, id=f.B1D2B5EC756247D1401CE30B514937F0.d.939ABE46044BF5A6187B147EF914F330.e.85}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52871}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\Users\snigd\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.250:4444/ses..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on windows (0f1ace0dd6a8957b9b1d1a003456bb95)] -> xpath: //input[@id='input-lastname']]
+Session ID: 0f1ace0dd6a8957b9b1d1a003456bb95
+2024-05-09 22:16:36 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:16:48 ERROR TC001_AccountRegistrationTest:72 - Test failed: Unable to locate element: //input[@id='input-firstname']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [44424816-f01c-47b2-83aa-7cca4148f48a, findElement {value=//input[@id='input-firstname'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8180, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.250:4444/ses..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 44424816-f01c-47b2-83aa-7cca4148f48a
+2024-05-09 22:16:48 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:16:48 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:16:50 ERROR TC001_AccountRegistrationTest:72 - Test failed: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [44424816-f01c-47b2-83aa-7cca4148f48a, clickElement {id=a3248495-dee0-4caf-9286-61067f30cde0}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8180, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.250:4444/ses..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on windows (44424816-f01c-47b2-83aa-7cca4148f48a)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 44424816-f01c-47b2-83aa-7cca4148f48a
+2024-05-09 22:16:50 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:16:55 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:16:55 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:16:56 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:16:56 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:16:56 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:16:57 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:16:57 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:18:30 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\parallel.xml
+
+2024-05-09 22:18:37 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:18:37 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:18:37 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:18:37 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:18:37 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:18:38 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:18:39 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:18:39 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:18:39 ERROR TC001_AccountRegistrationTest:72 - Test failed: The element with the reference 3e7019ae-6451-4ef6-852f-81c05383c9fb is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e42fb987-503e-4c52-afe3-9fb9de80c5aa, clickElement {id=3e7019ae-6451-4ef6-852f-81c05383c9fb}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:31518, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21872, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:31518/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (e42fb987-503e-4c52-afe3-9fb9de80c5aa)] -> xpath: //a[normalize-space()='Register']]
+Session ID: e42fb987-503e-4c52-afe3-9fb9de80c5aa
+2024-05-09 22:18:39 ERROR TC001_AccountRegistrationTest:72 - Test failed: The element with the reference 3e7019ae-6451-4ef6-852f-81c05383c9fb is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e42fb987-503e-4c52-afe3-9fb9de80c5aa, clickElement {id=3e7019ae-6451-4ef6-852f-81c05383c9fb}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:31518, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21872, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:31518/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (e42fb987-503e-4c52-afe3-9fb9de80c5aa)] -> xpath: //a[normalize-space()='Register']]
+Session ID: e42fb987-503e-4c52-afe3-9fb9de80c5aa
+2024-05-09 22:18:39 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:18:39 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:18:41 ERROR TC001_AccountRegistrationTest:72 - Test failed: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e42fb987-503e-4c52-afe3-9fb9de80c5aa, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:31518, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21872, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:31518/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e42fb987-503e-4c52-afe3-9fb9de80c5aa
+2024-05-09 22:18:41 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:18:46 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:18:46 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:18:47 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:18:47 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:19:52 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:19:52 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:19:53 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:19:53 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:19:53 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:19:54 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:19:54 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:20:51 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\parallel.xml
+
+2024-05-09 22:20:51 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:20:51 ERROR TC001_AccountRegistrationTest:72 - Test failed: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2024-05-09 22:20:51 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:20:57 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:20:57 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:20:57 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:20:57 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:20:57 ERROR TC001_AccountRegistrationTest:72 - Test failed: Element <a href="https://tutorialsninja.com/demo/index.php?route=account/register"> could not be scrolled into view
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0741bd53-4941-4f93-8fbe-a44248e39f73, clickElement {id=5a4647b5-b304-423b-b01d-6f688a52522d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:10016, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19440, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10016/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (0741bd53-4941-4f93-8fbe-a44248e39f73)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 0741bd53-4941-4f93-8fbe-a44248e39f73
+2024-05-09 22:20:57 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:20:57 ERROR TC001_AccountRegistrationTest:72 - Test failed: Element <a href="https://tutorialsninja.com/demo/index.php?route=account/register"> could not be scrolled into view
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0741bd53-4941-4f93-8fbe-a44248e39f73, clickElement {id=5a4647b5-b304-423b-b01d-6f688a52522d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:10016, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19440, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10016/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (0741bd53-4941-4f93-8fbe-a44248e39f73)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 0741bd53-4941-4f93-8fbe-a44248e39f73
+2024-05-09 22:20:57 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:21:05 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:21:05 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:21:05 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:21:05 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:21:38 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\parallel.xml
+
+2024-05-09 22:21:44 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:21:44 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:21:44 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:21:44 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:21:44 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:21:45 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:21:46 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:21:46 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:21:46 ERROR TC001_AccountRegistrationTest:72 - Test failed: The element with the reference 6452495d-bb7c-4aa7-a1c4-4ffbc41fec17 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9c02a812-aa8c-44b8-b3ce-b68ad8009d7b, clickElement {id=6452495d-bb7c-4aa7-a1c4-4ffbc41fec17}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:15596, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27256, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15596/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (9c02a812-aa8c-44b8-b3ce-b68ad8009d7b)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 9c02a812-aa8c-44b8-b3ce-b68ad8009d7b
+2024-05-09 22:21:46 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:21:46 ERROR TC001_AccountRegistrationTest:72 - Test failed: The element with the reference 6452495d-bb7c-4aa7-a1c4-4ffbc41fec17 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9c02a812-aa8c-44b8-b3ce-b68ad8009d7b, clickElement {id=6452495d-bb7c-4aa7-a1c4-4ffbc41fec17}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:15596, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27256, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15596/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (9c02a812-aa8c-44b8-b3ce-b68ad8009d7b)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 9c02a812-aa8c-44b8-b3ce-b68ad8009d7b
+2024-05-09 22:21:46 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:21:48 ERROR TC001_AccountRegistrationTest:72 - Test failed: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9c02a812-aa8c-44b8-b3ce-b68ad8009d7b, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:15596, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27256, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15596/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9c02a812-aa8c-44b8-b3ce-b68ad8009d7b
+2024-05-09 22:21:48 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:21:54 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:21:54 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:21:54 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:21:54 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:23:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\parallel.xml
+
+2024-05-09 22:23:24 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:23:24 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:23:24 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:23:24 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:23:25 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:23:25 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:23:25 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:23:25 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:23:26 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:23:26 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:23:27 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:23:27 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:23:27 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:23:27 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:23:27 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:23:27 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:23:28 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:23:28 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:23:30 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:23:30 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:23:30 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:23:32 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:23:32 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:23:32 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:23:32 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:23:33 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:23:33 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:23:33 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:23:33 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:23:33 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:23:33 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:23:34 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:23:34 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:23:34 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:23:34 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:23:38 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:23:38 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:23:38 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:23:38 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:23:39 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:23:40 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:23:40 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:24:50 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\master.xml
+
+2024-05-09 22:24:54 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:24:55 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:24:55 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:24:55 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:24:57 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:24:57 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:24:57 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:25:00 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:25:01 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:25:01 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:25:01 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:25:01 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:25:03 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:25:03 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:25:39 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\master.xml
+
+2024-05-09 22:25:42 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:25:42 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:25:43 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:25:43 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:25:44 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:25:45 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:25:45 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:25:49 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:25:49 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:25:49 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:25:50 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:25:50 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:25:50 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:25:50 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:26:15 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\master.xml
+
+2024-05-09 22:26:20 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:26:20 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:26:21 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:26:21 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:26:22 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:26:22 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:26:22 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:26:27 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:26:28 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:26:28 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:26:28 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:26:28 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:26:29 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:26:29 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:31:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\parallel.xml
+
+2024-05-09 22:31:34 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:31:34 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:31:34 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:31:34 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:31:34 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:31:34 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:31:35 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:31:35 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:31:35 ERROR TC001_AccountRegistrationTest:72 - Test failed: The element with the reference 7b2eb8e7-6513-4ef5-8826-91cefb448654 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [956c68a5-c496-4759-a214-1981bd7d27ac, clickElement {id=7b2eb8e7-6513-4ef5-8826-91cefb448654}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:37571, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23372, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37571/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (956c68a5-c496-4759-a214-1981bd7d27ac)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 956c68a5-c496-4759-a214-1981bd7d27ac
+2024-05-09 22:31:35 ERROR TC001_AccountRegistrationTest:72 - Test failed: The element with the reference 7b2eb8e7-6513-4ef5-8826-91cefb448654 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [956c68a5-c496-4759-a214-1981bd7d27ac, clickElement {id=7b2eb8e7-6513-4ef5-8826-91cefb448654}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:37571, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23372, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37571/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (956c68a5-c496-4759-a214-1981bd7d27ac)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 956c68a5-c496-4759-a214-1981bd7d27ac
+2024-05-09 22:31:35 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:31:35 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:31:37 ERROR TC001_AccountRegistrationTest:72 - Test failed: Tried to run command without establishing a connection
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [956c68a5-c496-4759-a214-1981bd7d27ac, findElement {using=xpath, value=//input[@id='input-email']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 125.0.3, moz:accessibilityChecks: false, moz:buildID: 20240425211020, moz:debuggerAddress: 127.0.0.1:37571, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23372, moz:profile: C:\Users\snigd\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:37571/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 956c68a5-c496-4759-a214-1981bd7d27ac
+2024-05-09 22:31:37 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:31:43 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:31:43 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:31:43 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:31:44 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:32:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\parallel.xml
+
+2024-05-09 22:32:26 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:32:26 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:32:27 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:32:27 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:32:27 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:32:27 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:32:28 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:32:28 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:32:28 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:32:28 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:32:29 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:32:29 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:32:29 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:32:29 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:32:29 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:32:31 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:32:31 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:32:31 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:32:32 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:32:32 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:32:32 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:32:34 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:32:34 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:32:34 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:32:35 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:32:35 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:32:36 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:32:36 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:32:38 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:32:38 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:32:39 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:32:39 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:32:39 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:32:40 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:32:40 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:32:40 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:32:40 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:32:40 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:32:41 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:32:41 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:32:41 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:32:42 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:41:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\master.xml
+
+2024-05-09 22:41:45 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:41:45 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:41:46 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:41:46 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:41:48 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:41:48 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:41:48 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:41:53 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:41:54 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:41:54 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:41:54 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:41:54 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:41:55 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:41:55 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************
+2024-05-09 22:42:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\snigd\eclipse-workspace\OpencartV121\master.xml
+
+2024-05-09 22:42:30 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-05-09 22:42:30 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-05-09 22:42:31 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-05-09 22:42:31 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-05-09 22:42:33 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-05-09 22:42:33 INFO  TC001_AccountRegistrationTest:68 - Test passed
+2024-05-09 22:42:33 INFO  TC001_AccountRegistrationTest:77 - ***** Finished TC001_AccountRegistrationTest *****
+2024-05-09 22:42:36 INFO  TC002_LoginTest:16 - ************Starting TC002_LoginTest************
+2024-05-09 22:42:36 INFO  TC002_LoginTest:24 - Clicked on My Account....
+2024-05-09 22:42:37 INFO  TC002_LoginTest:26 - Clicked on Login....
+2024-05-09 22:42:37 INFO  TC002_LoginTest:31 - Enter valid Email....
+2024-05-09 22:42:37 INFO  TC002_LoginTest:34 - Enter valid password....
+2024-05-09 22:42:38 INFO  TC002_LoginTest:37 - Clicked on Login button....
+2024-05-09 22:42:38 INFO  TC002_LoginTest:49 - ************TC002_LoginTest Ends************

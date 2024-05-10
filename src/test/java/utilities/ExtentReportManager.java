@@ -84,7 +84,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL,result.getName()+" got failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		
-		try {
+		try {                                                                // Disable this whole try catch block if you are not making the WebDriver "static" in BaseClass.java file for parallel execution in local/remote machine
 			String imgPath = new BaseClass().captureScreen(result.getName());
 			test.addScreenCaptureFromPath(imgPath);
 			
